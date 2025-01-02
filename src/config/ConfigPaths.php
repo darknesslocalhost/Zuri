@@ -32,8 +32,8 @@ declare(strict_types=1);
 namespace ReinfyTeam\Zuri\config;
 
 abstract class ConfigPaths {
-	public const string PREFIX = "zuri.prefix";
-
+	
+        public const string PREFIX = "zuri.prefix";
 	public const string ANTIBOT_MESSAGE = "zuri.antibot.message";
 	public const string EDITIONFAKER_MESSAGE = "zuri.editionfaker.message";
 
